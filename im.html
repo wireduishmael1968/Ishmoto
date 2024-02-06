@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ishmoto Images</title>
+	<link rel="stylesheet" type="text/css" href="im.css">
+	<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<img src="ishmlogoo.png" class="logo">
+		<div class="menu-btn"></div>
+		<div class="navigation">
+			<div class="navigation-items">
+				<a href="#">Home</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="about/about.html">About Us</a>
+				<a href="contact/contact.html">Contact Us</a>
+			</div>
+		</div>
+	</header>
+
+	<section class="home">
+		<video class="video-slider" src="pexels.mp4" autoplay muted loop></video>
+		<div class="content">
+			<h1>Welcome to<br><span>Ishmoto Images web</span></h1>
+			<p>We offer services like, Digital Designs, Web Development and Tutorials<br><br><b>Motto:</b> Quality Work, Affordable Price is the hallmark</p>
+			<a href="#">Watch Video</a>
+			<a href="#">Explore More...</a>
+		</div>
+		<!--<div class="wallpaper">
+			<img src="ishmmlogo.png" class="wall">
+		</div>
+	-->
+		<div class="media-icons">
+			<a href="https://www.facebook.com/Ishmael Wiredu" target="_blank"><i class="fa fa-facebook-square" style="font-size:40px"></i></a>
+			<a href="https://www.twitter.com/wiredu_ishmael" target="_blank"><i class="fa fa-twitter" style="font-size:40px"></i></a>
+			<a href="https://instagram.com/ishmael_wiredu" target="_blank" ><i class="fa fa-instagram" style="font-size:40px"></i></a>
+			<a href="https://www.whatsapp.com/0544962606" target="_blank" ><i class="fa fa-whatsapp" style="font-size:40px"></i></a>
+			<a href="https://www.telegram.com/0544962606" target="_blank"><i class="fa fa-telegram" style="font-size:40px"></i></a>
+			
+		</div>
+	</section>
+	<footer>
+		<h6>Copyright &copy;  Ishmoto Images Inc. 2023  <a href="#">Privacy & Terms</a></h6>
+	</footer>
+	<script type="text/javascript">
+		//Javascript of responsive navigation menu
+		const menuBtn = document.querySelector(".menu-btn");
+		const navigation = document.querySelector(".navigation");
+		
+
+		menuBtn.addEventListener("click", () => {
+			menuBtn.classList.toggle("active");
+			navigation.classList.toggle("active");
+			
+		});
+	</script>
+</body>
+</html>
